@@ -9,11 +9,11 @@ ELSE
 DECLARE @NotaFinal INT = 82;
  
 IF @NotaFinal >= 90
-    PRINT 'Aprovado com Excel�ncia';
+    PRINT 'Aprovado com Excelencia';
 ELSE IF @NotaFinal >= 70 
     PRINT 'Aprovado';
 ELSE IF @NotaFinal >= 50
-    PRINT 'Em Recupera��o';
+    PRINT 'Em Recuperacao';
 ELSE
     PRINT 'Reprovado';
  
