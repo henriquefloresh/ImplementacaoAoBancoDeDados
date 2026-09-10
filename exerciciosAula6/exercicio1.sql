@@ -8,7 +8,7 @@ SET @PrecoProduto = 2999.99;
  
 PRINT 'Nome do Produto: ' + @NomeProduto;
 PRINT 'Quantidade em Estoque: ' + CAST(@QuantidadeEstoque AS VARCHAR(10));
-PRINT 'Pre�o do Produto: ' + CAST(@PrecoProduto AS VARCHAR(20));
+PRINT 'Preco do Produto: ' + CAST(@PrecoProduto AS VARCHAR(20));
  
 
 SELECT @NomeProduto AS NomeProduto, @QuantidadeEstoque AS QuantidadeEstoque, @PrecoProduto AS PrecoProduto;
