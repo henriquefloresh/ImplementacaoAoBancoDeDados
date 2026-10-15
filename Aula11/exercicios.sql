@@ -50,3 +50,6 @@ BEGIN
 END
 
 SELECT * FROM CONTA WHERE id = 30;
+
+--Decisão	COMMIT
+--Estado final	id 30, Paulo, Saldo = 32.000,00
