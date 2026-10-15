@@ -23,3 +23,7 @@ COMMIT TRAN;
 -- Evidência após o COMMIT
 SELECT * FROM CONTA WHERE id IN (70, 80);
 SELECT @@TRANCOUNT AS transacoes_abertas;  
+
+
+id	Nome	Saldo
+70	Ana	100,00
